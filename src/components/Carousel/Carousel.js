@@ -12,7 +12,7 @@ const Carousel = () => {
     isScrolling: false,
     cientX: 0,
     scrollX: 0
-  })
+  });
 
   const ref = useRef();
 
