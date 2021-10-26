@@ -18,6 +18,7 @@
 
 4. Системные требования: язык HTML5/CSS3/JavaScript; web-браузер (браузер автора - Opera); фреймворк - React (create-react-app, react-router-dom), Redux (redux, react-redux, redux-saga).
 Для работы на localhost рекомендуется использовать API <code>https://cors-anywhere.herokuapp.com/corsdemo</code>, добавлять в начало url адреса (иначе возникает проблема с CORS).
+[API данных отелей](https://support.travelpayouts.com/hc/ru/articles/115000343268-API-данных-отелей#price/ "API данных отелей")
 
 5. Планы по улучшению:
   - адаптив и респонсив;
@@ -26,6 +27,4 @@
   - возможность скролла в списке отелей (как в макете);
   - перевод запроса на русский язык для заголовка страницы (локация);
 
-5. `ip-адрес сервера`: <code>178.154.255.197</code>
-
-6. [Ссылка на деплой.](https://antoshkow.movies-explorer.nomoredomains.monster/ "Ссылка на деплой.")
+6. [Ссылка на деплой.]( "Ссылка на деплой.")
