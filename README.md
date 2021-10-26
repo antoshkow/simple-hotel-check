@@ -16,8 +16,8 @@
   - Redux, react-redux;
   - работа с внешним API (с помощью redux-saga).
 
-4. Системные требования: язык HTML5/CSS3/JavaScript; web-браузер (браузер автора - Opera); фреймворк - React (create-react-app, react-router-dom), Redux (redux, react-redux, redux-saga).
-Для работы на localhost рекомендуется использовать API <code>https://cors-anywhere.herokuapp.com/corsdemo</code>, добавлять в начало url адреса (иначе возникает проблема с CORS).
+4. Системные требования: язык HTML5/CSS3/JavaScript; web-браузер (браузер автора - Opera); фреймворк - React (create-react-app, react-router-dom), Redux (redux, react-redux, redux-saga).<br>
+Для работы на localhost рекомендуется использовать API <code>https://cors-anywhere.herokuapp.com/corsdemo</code>, добавлять в начало url адреса (иначе возникает проблема с CORS).<br>
 [API данных отелей](https://support.travelpayouts.com/hc/ru/articles/115000343268-API-данных-отелей#price/ "API данных отелей")
 
 5. Планы по улучшению:
@@ -27,4 +27,4 @@
   - возможность скролла в списке отелей (как в макете);
   - перевод запроса на русский язык для заголовка страницы (локация);
 
-6. [Ссылка на деплой.]( "Ссылка на деплой.")
+6. [Ссылка на деплой.](https://antoshkow-simple-hotel-check.herokuapp.com/ "Ссылка на деплой.")
