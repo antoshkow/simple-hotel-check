@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1440px;
+  width: 90vw;
+
+  margin: auto;
+
+  padding: 32px 0;
+}
+
+.header__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #424242;
+
+  margin: 0;
+}
+
+.header__logout {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -.4px;
+
+  text-align: left;
+
+  color: #41522E;
+
+  background: transparent;
+  background-image: url(../../images/logout.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 24px 24px;
+
+  outline: none;
+  border: none;
+
+  width: 83px;
+  height: 24px;
+
+  padding: 0 36px 0 0;
+
+  cursor: pointer;
+  transition: opacity 1s linear .1s;
+}
+
+.header__logout:hover {
+  opacity: .8;
+}

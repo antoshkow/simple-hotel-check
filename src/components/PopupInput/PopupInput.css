@@ -1,0 +1,51 @@
+.popup-input {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 345px;
+  width: 100%;
+
+  padding-bottom: 24px;
+}
+
+.popup-input:last-of-type {
+  padding-bottom: 32px;
+}
+
+.popup-input_main {
+  max-width: 296px;
+}
+
+.popup-input__placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #424242;
+
+  margin: 0 0 7px 0;
+}
+
+.popup-input__input {
+  height: 50px;
+
+  border: 1px solid #C9CACC;
+  border-radius: 4px;
+
+  padding: 0 16px;
+}
+
+.popup-input__input:focus {
+  outline: none;
+  border: 1px solid #BE8022;
+}
+
+.popup-input__error {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  margin-top: 7px;
+
+  color: #EB1717;
+}

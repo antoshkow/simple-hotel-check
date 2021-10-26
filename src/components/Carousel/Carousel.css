@@ -1,0 +1,28 @@
+.carousel {
+  position: relative;
+
+  list-style: none;
+
+  padding-left: 0;
+  margin: 28px 0 26px 0;
+
+  display: flex;
+}
+
+.carousel__img-list {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: scroll;
+}
+
+.carousel__img-list::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.carousel__img {
+  display: inline-block;
+}

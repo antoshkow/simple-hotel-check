@@ -1,0 +1,65 @@
+.filter {
+  box-sizing: border-box;
+}
+
+.filter__btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -.4px;
+
+  display: flex;
+  align-items: center;
+
+  height: 28px;
+
+  text-align: left;
+
+  color: #41522E;
+
+  background: transparent;
+
+  border: 1px solid #41522E;
+  border-radius: 4px;
+
+  padding: 0 12.5px 0 8px;
+  margin-right: 8px;
+
+  transition: opacity 1s linear .1s;
+}
+
+.filter__btn:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.filter__btn_disabled {
+  color: rgba(0, 0, 0, 0.32);
+
+  border: 1px solid #E5E5E5;
+}
+
+.filter__arrows {
+  list-style: none;
+
+  padding-left: 9px;
+  margin: 0;
+}
+
+.filter__arrow {
+  width: 8.5px;
+  height: 5.3px;
+
+  mask-image: url(../../images/filter-up.svg);
+  background-color: #41522E;
+}
+
+.filter__arrow_down {
+  transform: rotate(180deg);
+
+  margin-top: 1.5px;
+}
+
+.filter__arrow_inactive {
+  background-color: rgba(65, 82, 46, 0.3);
+}

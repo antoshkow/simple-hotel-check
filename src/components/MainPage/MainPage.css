@@ -1,0 +1,28 @@
+.main-page {
+  display: grid;
+  grid-template-columns: 360px 664px;
+  grid-template-areas:
+    "popup hotels"
+    "saved hotels";
+  gap: 24px;
+  justify-content: center;
+
+  margin: auto;
+
+  max-width: 1440px;
+  width: 100%;
+}
+
+.main-page__popup {
+  grid-area: popup;
+}
+
+.main-page__saved {
+  grid-area: saved;
+
+  margin-bottom: 25px;
+}
+
+.main-page__hotels {
+  grid-area: hotels;
+}

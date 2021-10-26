@@ -1,0 +1,172 @@
+.hotel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(135, 135, 135, 0.2);
+}
+
+.hotel__house {
+  position: relative;
+
+  background-image: url(../../images/house.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: center;
+
+  margin: 0 24px 0 0;
+
+  width: 64px;
+  height: 64px;
+
+  display: none;
+}
+
+.hotel__house::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 32px;
+
+  background: rgba(65, 82, 46, 0.05);
+}
+
+.hotel__house_saved {
+  display: block;
+}
+
+.hotel__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  width: 80%;
+}
+
+.hotel__main_saved {
+  width: 100%;
+}
+
+.hotel__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 16px 0 0 0;
+}
+
+.hotel__wrapper_middle {
+  justify-content: flex-start;
+
+  margin: 4px 0 10px 0;
+}
+
+.hotel__wrapper_bottom {
+  margin: 0;
+}
+
+.hotel__title {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -.4px;
+
+  color: #424242;
+
+  margin: 0;
+}
+
+.hotel__like {
+  background-image: url(../../images/like.svg);
+
+  width: 21px;
+  height: 18px;
+
+  transition: opacity 1s linear .1s;
+}
+
+.hotel__like:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+.hotel__date {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -.4px;
+
+  color: #878787;
+
+  margin: 0 15px 0 0;
+}
+
+.hotel__dash {
+  width: 9px;
+  height: 2px;
+
+  background: #C4C4C4;
+  border-radius: 2px;
+
+  margin-right: 13px;
+}
+
+.hotel__days {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -.4px;
+
+  color: #878787;
+
+  margin: 0;
+}
+
+.hotel__stars {
+  list-style: none;
+
+  padding-left: 0;
+
+  margin-bottom: 15px;
+}
+
+.hotel__star {
+  background-image: url(../../images/star-active.svg);
+
+  display: inline-block;
+
+  width: 17px;
+  height: 17px;
+}
+
+.hotel__star_inactive {
+  background-image: url(../../images/star-inactive.svg);
+}
+
+.hotel__span {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: -.4px;
+
+  color: #878787;
+
+  margin-right: 10px;
+}
+
+.hotel__price {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: -.4px;
+
+  color: #424242;
+
+  margin: 0 0 20px 0;
+}

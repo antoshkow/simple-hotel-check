@@ -1,0 +1,8 @@
+.app {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+  background: #F4F4F4;
+
+  min-height: 100vh;
+  min-width: 320px;
+}
