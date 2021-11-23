@@ -19,7 +19,8 @@
       "skipLibCheck": true,
       "strict": true,
       "strictPropertyInitialization": true,
-      "target": "es6"
+      "target": "es6",
+      "noImplicitAny": false
     },
     "include": [
       "src"
