@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './SavedHotelsList.css';
+import './SavedHotelsList.scss';
 import Popup from '../Popup/Popup';
 import Filter from '../Filter/Filter';
 import Hotel from '../Hotel/Hotel';

@@ -1,5 +1,5 @@
 import { takeEvery, put, call } from 'redux-saga/effects';
-import { GET_HOTELS, FETCH_HOTELS } from './types';
+import ActionTypes from './types';
 import { hidePreloader, showPreloader } from './actions';
 import { getHotels } from '../utils/api';
 

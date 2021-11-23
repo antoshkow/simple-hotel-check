@@ -1,5 +1,5 @@
 import React from 'react';
-import './AuthPage.css';
+import './AuthPage.scss';
 import PopupWithForm from '../PopupWithForm/PopupWithForm';
 
 function AuthPage() {

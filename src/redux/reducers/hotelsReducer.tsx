@@ -1,9 +1,7 @@
-import {
-  FETCH_HOTELS, SEARCH_HOTEL, LIKE_HOTEL,
-  UNLIKE_HOTEL, SAVE_HOTEL_ID, REMOVE_HOTEL_ID
-} from './types';
+import ActionTypes from '../types';
+import { HotelsAction, IHotelsState } from '../../constants/interfaces';
 
-const initialState = {
+const initialState: IHotelsState = {
   hotels: [],
   savedHotels: [],
   savedHotelsId: [],
@@ -14,36 +12,37 @@ const initialState = {
   }
 }
 
-export const hotelsReducer = (state = initialState, action) => {
+export const hotelsReducer = (state = initialState, action: HotelsAction) => {
   switch (action.type) {
-    case FETCH_HOTELS:
+    case ActionTypes.FETCH_HOTELS:
       return { ...state, hotels: action.payload };
-    case SEARCH_HOTEL:
+    case ActionTypes.SEARCH_HOTEL:
       return { ...state, check: action.payload };
-    case LIKE_HOTEL:
+    case ActionTypes.LIKE_HOTEL:
       return {
         ...state,
         savedHotels: [action.payload, ...state.savedHotels]
       }
-    case SAVE_HOTEL_ID:
+    case ActionTypes.SAVE_HOTEL_ID:
       return {
         ...state,
         savedHotelsId: [action.payload, ...state.savedHotelsId]
       }
-    case UNLIKE_HOTEL:
+    case ActionTypes.UNLIKE_HOTEL:
       return {
         ...state,
         savedHotels: state.savedHotels.filter(hotel => {
           return hotel !== action.payload
         })
       }
-    case REMOVE_HOTEL_ID:
+    case ActionTypes.REMOVE_HOTEL_ID:
       return {
         ...state,
         savedHotelsId: state.savedHotelsId.filter(id => {
           return id !== action.payload
         })
       }
-    default: return state;
+    default:
+      return state;
   }
 }

@@ -4,7 +4,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import './App.css';
+import './App.scss';
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
 import AuthPage from '../AuthPage/AuthPage';
 import Header from '../Header/Header';

@@ -10,3 +10,5 @@ export const rootReducer = combineReducers({
   app: appReducer,
   filter: filterReducer
 });
+
+export type RootState = ReturnType<typeof rootReducer>;

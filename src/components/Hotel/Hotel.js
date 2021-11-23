@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import './Hotel.css';
+import './Hotel.scss';
 import { declOfNum } from '../../utils/helpers';
 import {
   likeHotel, unlikeHotel, saveHotelId,

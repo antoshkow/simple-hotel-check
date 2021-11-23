@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import './Popup.css';
+import './Popup.scss';
 
 function Popup({ children }) {
 

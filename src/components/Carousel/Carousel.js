@@ -4,7 +4,7 @@ import React, {
 import img from '../../images/test-picture.png';
 import img2 from '../../images/test-picture2.png';
 import img3 from '../../images/test-picture3.png';
-import './Carousel.css';
+import './Carousel.scss';
 
 const Carousel = () => {
 

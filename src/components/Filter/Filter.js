@@ -4,7 +4,7 @@ import {
   costFilterOff, costFilterOn, ratingFilterOff,
   ratingFilterOn
 } from '../../redux/actions';
-import './Filter.css';
+import './Filter.scss';
 
 function Filter({ title, type }) {
 

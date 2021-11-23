@@ -1,5 +1,5 @@
 import React from 'react';
-import './PopupInput.css';
+import './PopupInput.scss';
 
 function PopupInput({
   inputTitle, inputType, inputName,

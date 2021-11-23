@@ -1,5 +1,5 @@
 import React from 'react';
-import './PopupBtn.css';
+import './PopupBtn.scss';
 
 function PopupBtn({
   btnClassName, btnText, handleBtnClick,

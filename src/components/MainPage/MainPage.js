@@ -1,5 +1,5 @@
 import React from 'react';
-import './MainPage.css';
+import './MainPage.scss';
 import PopupWithForm from '../PopupWithForm/PopupWithForm';
 import SavedHotelsList from '../SavedHotelsList/SavedHotelsList';
 import HotelsList from '../HotelsList/HotelsList';

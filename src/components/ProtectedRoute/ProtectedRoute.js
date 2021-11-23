@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
-import './ProtectedRoute.css';
+import './ProtectedRoute.scss';
 import Preloader from '../Preloader/Preloader';
 
 function ProtectedRoute({

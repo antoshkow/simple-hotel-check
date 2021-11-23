@@ -5,9 +5,9 @@ import { compose, createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import createSagaMiddleware from 'redux-saga';
-import './index.css';
+import './index.scss';
 import App from './components/App/App';
-import { rootReducer } from './redux/rootReducer';
+import { rootReducer } from './redux/reducers/rootReducer';
 import { sagaWatcher } from './redux/sagas';
 
 const saga = createSagaMiddleware();

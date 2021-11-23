@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLocation, useHistory } from 'react-router';
 import { useDispatch } from 'react-redux';
-import './PopupWithForm.css';
+import './PopupWithForm.scss';
 import Popup from '../Popup/Popup';
 import PopupInput from '../PopupInput/PopupInput';
 import PopupBtn from '../PopupBtn/PopupBtn';

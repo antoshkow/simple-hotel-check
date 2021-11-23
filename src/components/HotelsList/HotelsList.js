@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './HotelsList.css';
+import './HotelsList.scss';
 import sign from '../../images/vector-h2.svg';
 import Hotel from '../Hotel/Hotel';
 import Preloader from '../Preloader/Preloader';
