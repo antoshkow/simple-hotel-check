@@ -29,4 +29,4 @@ To work on localhost, it is recommended to use the API <code>https://cors-anywhe
   - translation of the request into Russian for the page title (location);
   - TypeScript
 
-6. [deployed on netlify.](https://antoshkow-simple-hotel-check.herokuapp.com/ "deployed on netlify.")
+6. [deployed on netlify.](https://antoshkow-hotel-check.netlify.app/ "deployed on netlify.")
