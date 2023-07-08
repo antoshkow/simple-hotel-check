@@ -51,7 +51,7 @@ function HotelsList() {
         {
           isLoading ?
             <Preloader /> :
-            hotelsData.map(hotel => (
+            hotelsData && hotelsData.map(hotel => (
               <Hotel
                 key={hotel.hotelId}
                 title={hotel.hotelName}
